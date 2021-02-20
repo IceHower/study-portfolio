@@ -1,6 +1,6 @@
 import React from 'react';
 import { HeaderContainer, HeaderContent, DownloadButton, MenuItens } from './styles';
-import pp from '../assets/pp.jpeg'
+import pp from '../../assets/pp.jpeg';
 
 const Header = React.FC = () => {
     return (
