@@ -1,11 +1,14 @@
 import React from 'react';
-import { Container } from './styles';
+import { Container, Box } from './styles';
 
 
 function Body() {
     return(
         <Container>
-            <h1>Vinicius Telles</h1>
+            <Box>
+                <h1>Vinicius Telles</h1>
+                <h2>Full Stack Developer</h2>
+            </Box>       
         </Container>     
     );
 }
